@@ -1,0 +1,36 @@
+
+
+
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid black;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  margin-right: 10px;
+  padding-left: 30px;
+}
+
+nav {
+  margin-left: 70%;
+}
+
+a {
+    color: black;
+    padding-right: 10px;
+}
+
+.logo span {
+  color: MediumAquamarine;
+}
