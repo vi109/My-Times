@@ -53,61 +53,81 @@ nav {
   display: flex;
   justify-content: flex-start;
   position: relative;
-  top: 85px;
-  margin: 0 80px;
+  top: 100px;
+  margin: 0 125px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  color: white;
+  font-weight: bold;
+  height: 300px;
 }
 
 /* left colomn*/
+
 .left-column {
   width: 630px;
   display: flex;
-  flex-wrap: wrap;
   align-content: space-between;
+  flex-wrap: wrap;
 }
+
+/* left main article*/
 
 .left-top {
   width: 630px;
   padding: 10px;
-
 }
 
-h3 {
-  height: 300px;
-  color: white;
-  font-weight: bold;
-
-}
-.left-top h3 {
+.picture-main {
   background-image: url(../images/main-story.png);
-  font-size: 40px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+
 }
+.picture-main h3 {
+    font-size: 40px;
+}
+
+/* Article bottom left */
 
 .left-left {
   width: 295px;
   padding: 10px;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-
 }
 
-.left-left h3 {
+.picture-bottomleft {
   background-image: url(../images/fall-season.png);
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.picture-bottomleft h3 {
   font-size: 30px;
   text-align: center;
 }
 
+/* article bottom right */
+
 .left-right {
   width: 295px;
   padding: 10px;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-
 }
 
-.left-right h3 {
+.picture-bottomright {
   background-image: url(../images/hipster-cameraman.png);
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.picture-bottomright h3 {
   font-size: 30px;
   text-align: center;
 }
@@ -116,13 +136,19 @@ h3 {
 .middel-column {
   width: 300px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: column;
-  padding: 10px;
+  padding-left: 15px;
 }
 
-.middel-bottom h3 {
+.picture-middel {
   background-image: url(../images/cat-ceo.png);
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.picture-middel h3 {
   font-size: 30px;
   text-align: center;
 }
@@ -134,9 +160,53 @@ h3 {
   justify-content: flex-start;
   flex-direction: column;
   margin-top: 150px;
-  padding: 10px;
+  align-items: center;
+  margin-top: 40px ;
+
 }
 
-.right-column .news {
-  border: solid;
+li {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  border-bottom: 1px solid;
+  display: block;
+  padding: 10px 20px;
+}
+
+.right-column h2 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* footer */
+
+footer {
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  height: 325px;
+  position: relative;
+  top: 125px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer span {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: 2px solid;
+  padding-right: 20px;
+}
+
+a {
+  padding: 0 20px;
+  color: black;
 }
