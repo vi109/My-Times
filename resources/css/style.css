@@ -60,41 +60,53 @@ nav {
 /* left colomn*/
 .left-column {
   width: 630px;
-  border: solid;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
 }
 
 .left-top {
-  border: solid;
+  width: 630px;
+  padding: 10px;
+
 }
 
 h3 {
   height: 300px;
   color: white;
   font-weight: bold;
+
 }
 .left-top h3 {
-  border: solid;
   background-image: url(../images/main-story.png);
   font-size: 40px;
 }
 
 .left-left {
-  border: solid;
+  width: 295px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
 }
 
 .left-left h3 {
-  border: solid;
   background-image: url(../images/fall-season.png);
   font-size: 30px;
   text-align: center;
 }
 
 .left-right {
-  border: solid;
+  width: 295px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
 }
 
 .left-right h3 {
-  border: solid;
   background-image: url(../images/hipster-cameraman.png);
   font-size: 30px;
   text-align: center;
