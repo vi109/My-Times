@@ -51,7 +51,7 @@ nav {
 
 .main-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   position: relative;
   top: 85px;
   margin: 0 80px;
@@ -115,19 +115,13 @@ h3 {
 /* middel column */
 .middel-column {
   width: 300px;
-  border: solid;
-}
-
-.middel-top {
-  border: solid;
-}
-
-.middel-bottom {
-  border: solid;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
 }
 
 .middel-bottom h3 {
-  border: solid;
   background-image: url(../images/cat-ceo.png);
   font-size: 30px;
   text-align: center;
@@ -136,7 +130,11 @@ h3 {
 /* right column */
 .right-column {
   width: 240px;
-  border: solid;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-top: 150px;
+  padding: 10px;
 }
 
 .right-column .news {
