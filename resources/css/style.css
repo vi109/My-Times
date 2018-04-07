@@ -192,10 +192,11 @@ li {
 
 footer {
   background-color: MediumAquamarine;
-  margin: auto;
+
   font-family: Verdana;
   font-size: 12px;
   height: 325px;
+  width: 1600px;
   position: relative;
   top: 125px;
   z-index: 1;
